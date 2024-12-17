@@ -42,3 +42,66 @@
 // let age = [ 24, 21, 18, 19, 20];
 // console.log(age);
 
+// normal function
+// function sum(a, b){
+//     let total = a + b;
+//     return total;
+// };
+// let a = 5;
+// let b = 7;
+// let total = sum(a, b);
+
+// function sum(a, b){
+
+//     return a * b;
+// };
+// let a = 5;
+// let b = 7;
+// let total = sum(a, b);
+// console.log(total);
+
+
+// function gold(ana){
+//     return 64 + ' ' + 'ana' + ' ' + '=' + ' ' + ana/16 + ' ' + 'vori'; 
+// }
+// let output = gold(64);
+// console.log(output);
+
+
+// function gold(ana){
+//     let vori = ana/16;
+//     return `64 ana = ${vori} vori`;
+// }
+// let output = gold(64);
+// console.log(output);
+
+// 
+
+// anonymous function
+// let sum = function(num1, num2){
+//     return num1 + num2;
+// }
+// console.log(sum(10, 20));
+
+// arrow function
+// let sum = (num1, num2) => num1 + num2;
+// console.log(sum(10, 20));
+
+// let sum = (num1, num2) => {
+//      let total = num1 + num2;
+//      return total * total;
+// };    
+// console.log(sum(10, 20));
+
+
+// higher order function
+// function sum (num1, num2, add){
+//      return add (num1, num2)
+// };
+// let add = (number1, number2) => number1 + number2;
+// console.log(sum(30, 20, add))
+
+// IFFE
+(function (name){
+     console.log(name)
+})("alif")
